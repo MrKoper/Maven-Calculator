@@ -17,7 +17,4 @@ public class Calculator {
         return x/y;
     }
 
-    public int avg(int x, int y, int z) {
-        return 0;
-    }
 }

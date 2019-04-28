@@ -30,16 +30,4 @@ public class CalculatorTest {
         assertEquals(12, calc.divide(36,3), 0.001);
     }
 
-    @Test
-    public void TestDivide() {
-        Calculator calc = new Calculator();
-        assertEquals(12, calc.divide(36,3), 0.001);
-    }
-
-
-    @Test
-    public void TestAvg() {
-        Calculator calc = new Calculator();
-        assertEquals(50,calc.avg(2,3,5));
-    }
 }
